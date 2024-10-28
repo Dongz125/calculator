@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Bé tập tính</h2><br>
+    <table>
+        <tr>
+            <td>
+                Số thứ nhất
+            </td>
+
+            <td>
+                <input type="number" id="number1">
+            </td>
+            
+            <td>
+                <input type="radio" name="operation" id="add" value="add">
+                <label for="add">Cộng</label>
+            </td>
+
+            <td>
+                <input type="radio" name="operation" id="subtract" value="subtract">
+                <label for="subtract">Trừ</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Số thứ hai
+            </td>
+
+            <td>
+                <input type="number" id="number2">
+            </td>
+
+            <td>
+                <input type="radio" name="operation" id="multiply" value="multiply">
+                <label for="multiply">Nhân</label>
+            </td>
+
+            <td>
+                <input type="radio" name="operation" id="divide" value="divide" checked>
+                <label for="divide">Chia</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Kết quả
+            </td>
+
+            <td>
+                <input type="number" id="result" value="result">
+            </td>
+
+            <td>
+                <button onclick="calculate()" class="button">Tính</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Thông báo
+            </td>
+
+            <td colspan="3">
+                <output type="text" id="inform"></output>
+            </td>
+        </tr>
+    </table>
+    
+    <div class="information">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

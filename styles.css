@@ -1,0 +1,26 @@
+body {
+    display: flexbox;
+    justify-content: center;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+.red {
+    color: red;
+}
+
+.button {
+    margin-left: 5px;
+}
+
+table {
+    border-spacing: 10px;
+    margin-left: 5px;
+}
+
+.red_italic {
+    color: red;
+    font-style: italic;
+}
